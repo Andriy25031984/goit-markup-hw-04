@@ -195,6 +195,19 @@ display: flex;
   line-height: 1.71;
   letter-spacing: 0.03em;
 }
+.tumb{
+  background-color: #F5F4FA;
+  width: 270px;
+  height: 120px;
+}
+.tumb > .prost-icons{
+  display: block;
+  width: 70px;
+  height: 70px;
+
+  object-fit: contain;
+  object-position: center;
+}
 /*work*/
 .work{
   padding-top:0;
@@ -262,6 +275,20 @@ padding-bottom: 30px;
   width: 20px;
   height: 20px;
 }
+.title-client{
+    margin-bottom: 50px;
+
+  color: var(--title-text-color);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+}
+.tumb-client{
+  display: flex;
+
+
+}
 /* footer */
 
 .bottom {
@@ -307,8 +334,10 @@ padding-bottom: 30px;
 }
 .bottom-netvorks{
   width: 20px;
-  height: 20px;
-}
+  height: 20px}
+  .bottom-netvorks > icon{
+    margin-bottom: 30px;
+  }
 
 /*portfolio*/
 

@@ -100,21 +100,13 @@ ul{
   color: var(--accent-color);
 }
 .button{
-  padding: 0;
-  border: none;
-}
-.button-item{
-  width: 16px;
-  height: 12px;
-}
-.button-contacts{
- width: 10px;
- height: 16px;
+  display: flex;
+  width: 100%;
+  height: 100%;
 }
 /* hero */
 
 .hero {
- 
   padding: 200px 0;
 
 display: flex;
@@ -270,10 +262,6 @@ padding-bottom: 30px;
   line-height: 1.18;
   text-align: center;
   letter-spacing: 0.03em;
-}
-.netvorks{
-  width: 20px;
-  height: 20px;
 }
 .title-client{
     margin-bottom: 50px;

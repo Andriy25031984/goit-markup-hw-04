@@ -89,7 +89,7 @@ ul{
 .contakt-nav-item:not(:last-child){
 margin-right: 30px;
 }
-.contacts{
+.contacts{ 
   color: var(--primary-text-color);
   text-decoration: none;
   font-weight: 500;
@@ -101,10 +101,9 @@ margin-right: 30px;
 .contacts:focus {
   color: var(--accent-color);
 }
-.icon{
-display: flex;
-margin: 0 auto;
-justify-content: center;
+.contacts-icon{
+  fill: currentColor;
+  margin-right: 10px;
 }
 /* hero */
 
@@ -189,10 +188,7 @@ display: flex;
   line-height: 1.71;
   letter-spacing: 0.03em;
 }
-.button-pros{
-  display: flex;
-  justify-content: center;
-}
+.
 /*work*/
 .work{
   padding-top:0;
@@ -259,6 +255,12 @@ padding-bottom: 30px;
 .team-netvorks{
   display: flex;
 }
+.netvorks-icon{
+  fill: #AFB1B8;
+}
+.netvorks-icon:hover,.netvorks-icon:focus{
+  fill: var(--accent-color);
+}
 .netvorks-icon:not(:last-child){
   margin-right: 10px;
 } 
@@ -283,6 +285,12 @@ padding-bottom: 30px;
 padding: 0;
 object-fit:contain;
 background-position:bottom;
+}
+.client-icon{
+  fill: #AFB1B8;
+}
+.client-icon:hover,.client-icon:focus{
+ fill: var(--accent-color);
 }
 /* footer */
 

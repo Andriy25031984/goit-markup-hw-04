@@ -90,10 +90,6 @@ ul{
 margin-right: 30px;
 }
 .contacts{
-  justify-content: center;
-  
-  padding-top: auto;
-  padding-bottom: auto;
   color: var(--primary-text-color);
   text-decoration: none;
   font-weight: 500;
@@ -105,7 +101,8 @@ margin-right: 30px;
 .contacts:focus {
   color: var(--accent-color);
 }
-.icon-phon , .icon-envelope{
+.icon{
+display: flex;
 margin: 0 auto;
 justify-content: center;
 }
@@ -282,6 +279,11 @@ padding-bottom: 30px;
 .client:not(:last-child){
   margin-right: 30px;
 }
+.button-client{
+padding: 0;
+object-fit:contain;
+background-position:bottom;
+}
 /* footer */
 
 .bottom {
@@ -325,13 +327,9 @@ padding-bottom: 30px;
   line-height: 1.71;
   letter-spacing: 0.03em;
 }
-.bottom-netvorks{
-  width: 20px;
-  height: 20px}
-  .bottom-netvorks > icon{
-    margin-bottom: 30px;
-  }
-
+.bottom-tumb{
+display: flex;
+}
 /*portfolio*/
 
 .portfolio-links {

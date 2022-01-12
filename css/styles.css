@@ -282,9 +282,13 @@ padding-bottom: 30px;
 .netvorks-icon:hover,.netvorks-icon:focus{
   fill: var(--accent-color);
 }
-.netvorks-icon:not(:last-child){
-  margin-right: 10px;
-} 
+.team-card{
+  width: 270px;
+  height: 428px;
+  box-shadow: 0 2 1 0 000000
+20%;
+}
+
 /*client*/
 
 .title-client{
@@ -359,9 +363,6 @@ padding-bottom: 30px;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
-}
-.bottom-tumb{
-display: flex;
 }
 /*portfolio*/
 
